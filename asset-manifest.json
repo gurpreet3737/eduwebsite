@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eduwebsite/static/css/main.0e0796a7.css",
+    "main.js": "/eduwebsite/static/js/main.3b19779a.js",
+    "static/js/787.80793953.chunk.js": "/eduwebsite/static/js/787.80793953.chunk.js",
+    "index.html": "/eduwebsite/index.html",
+    "main.0e0796a7.css.map": "/eduwebsite/static/css/main.0e0796a7.css.map",
+    "main.3b19779a.js.map": "/eduwebsite/static/js/main.3b19779a.js.map",
+    "787.80793953.chunk.js.map": "/eduwebsite/static/js/787.80793953.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e0796a7.css",
+    "static/js/main.3b19779a.js"
+  ]
+}
