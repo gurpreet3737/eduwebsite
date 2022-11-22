@@ -1,0 +1,187 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+.header {
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	background-color:rebeccapurple;
+	height: 60px;
+	align-items: baseline;
+	padding: 0 1rem;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+.header > div h2 {
+	color: white;
+	margin: 0;
+	padding: 0 8px 0 0;
+	align-self: center;
+}
+
+.menu {
+	padding: 0 8px;
+	display: flex;
+	list-style: none;
+	align-items: baseline;
+}
+
+.menu > li {
+	padding: 5px 8px;
+	text-decoration: none;
+	color: white;
+}
+
+.menu > li a {
+	text-decoration: none;
+	color: white;
+}
+
+.search-container {
+	float: left;
+	background-color: aliceblue;
+	flex-grow: 1;
+	border: 1px solid white;
+	height: 2rem;
+	border-radius: 9999px;
+	align-items: baseline;
+	margin: 0 20px ;
+}
+
+.search {
+	display: flex;
+	height: 100%;
+	padding: 0 16px 0 0;
+	flex-direction: row-reverse;
+}
+
+.search input {
+	flex-grow: 1;
+	border: 0;
+	background-color: transparent;
+	padding-left: 8px
+}
+
+.search button {
+	border: 0;
+	background-color: transparent;
+	padding-left: 12px;
+}
+
+.login .signup {
+	background-color: white;
+	color: rebeccapurple;
+	padding: 8px;
+	border-radius: 9999px;
+}
+
+input:focus {
+	outline: none;
+}
+
+.row {
+	margin: 72px 20px 0 20px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.left {
+	flex: 25%;
+	padding: 12px;
+	background-color:white ;
+	
+}
+
+.skill-search {
+	display: block;
+	position: relative;
+	font-weight: 600;
+	line-height: 1.5;
+	border-bottom: 1px solid black;
+	padding: 10px 60px 10px 0;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.skill-search-content {
+	margin: 0 0 16px 0;
+	margin-inline: 3px;
+}
+
+input[type='checkbox'] {
+	height: 14px;
+	width: 14px;
+	margin-inline: 8px;
+	
+}
+
+/*
+input[type='checkbox']:checked ~ .facet-checkbox {
+	background: rebeccapurple;
+	
+}
+
+.facet-checkbox::after {
+	content: '';
+	display: none;
+}
+
+input[type='checkbox']:checked ~ .facet-checkbox::after {
+	display: block;
+  }
+  
+
+.facet-checkbox:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+  }
+  */
+
+.fa-chevron-down {
+	padding: 4px;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	color: black;
+}
+
+.main {
+	flex: calc(75% - 2em);
+	display: block;
+	padding: 20px;
+	background-color: white;
+	margin-left: 0.8em;
+}
+
+.course {
+	margin-bottom : 1.5em;
+	color: black;
+	padding: 12px 8px;
+	font-weight: 600;
+	border-bottom: 1px solid black;
+}
+
+.course-elements {
+	list-style: none;
+	font-weight: normal;
+	line-height: 1.8;
+	margin: 0;
+	padding: 0.8em 1em;
+}
